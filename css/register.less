@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(239, 238, 238);
+    section{
+        width: 100%;
+        >.shouye{
+            height: 3rem;
+            line-height: 3rem;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            border-bottom: 1px solid gray;
+            background-color: white;
+            >p:nth-of-type(1){
+                flex: 1;
+            }
+            >p:nth-of-type(2){
+                flex: 10;
+            }
+            >span,
+            >a{
+                margin-left: .5rem;
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .zhuce{
+            background-color: white;
+            >ul{
+                display: flex;
+                list-style: none;
+                flex-direction: column;
+                margin-bottom: 2rem;
+                li{
+                    height: 4rem;
+                    line-height: 4rem;
+                    border-bottom: 1px solid gray;
+                    padding: 0px 1rem;
+                    >input{
+                        border: none;
+                        outline: none;
+                    }
+                }
+                &>li:nth-of-type(1){
+                    display: flex;
+                    justify-content: space-between;
+                    >span{
+                        border: 1px solid gray;
+                        padding: .7rem;
+                        height: 1rem;
+                        line-height: 1rem;
+                        margin-top: .75rem;
+                        color: gray;
+                        font-weight: 900;
+                        font-family: '宋体';
+                        font-size: 1.2rem;
+                    }
+                    &>p:nth-of-type(1){
+                        flex: 10;
+                    }
+                    &>p:nth-of-type(2){
+                        flex: 1;
+                    }
+                }
+            }
+        }
+        .btn{
+            width: 100%;
+            margin: 0 auto;
+            height: 4rem;
+            line-height: 4rem;
+            background-color: #ff8a00;
+            border: none;
+            outline: none;
+            font-size: 1.8rem;
+            color: white;
+        }
+    }
+}
