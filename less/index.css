@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+}
+section .banner1 {
+  width: 100%;
+  background-size: cover;
+}
+section .banner1 > img {
+  width: 100%;
+}
+section .banner1 form {
+  width: 90%;
+  bottom: 1rem;
+  left: 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  overflow: hidden;
+}
+section .banner1 form > span {
+  width: 2rem;
+  height: 2rem;
+  background: url(../images/index/seach.jpg) no-repeat 0px 0px;
+  background-size: 2rem 2rem;
+  z-index: 2;
+  margin-left: 1rem;
+  bottom: 1rem;
+  left: -1rem;
+  position: absolute;
+  left: 0;
+  top: 1rem;
+}
+section .banner1 form input {
+  width: 75%;
+  border-radius: 0.5rem;
+  height: 4rem;
+  padding-left: 4rem;
+  outline: none;
+}
+section .list {
+  width: 100%;
+  background-color: #ff8a00;
+  margin-top: -0.5rem;
+}
+section .list > ul {
+  display: flex;
+  justify-content: space-around;
+  height: 12rem;
+  line-height: 12rem;
+  color: white;
+}
+section .list > ul > li {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+section .list > ul > li > img {
+  width: 6rem;
+  height: 6rem;
+  margin-top: 0.5rem;
+}
+section .list > ul > li > span {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  transform: translate(50%);
+}
+section .banner2 {
+  width: 100%;
+}
+section .banner2 > img {
+  width: 100%;
+}

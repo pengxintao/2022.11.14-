@@ -1,0 +1,78 @@
+body {
+  background-color: #efeeee;
+}
+body section {
+  width: 100%;
+}
+body section > .shouye {
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+body section > .shouye > p:nth-of-type(1) {
+  flex: 1;
+}
+body section > .shouye > p:nth-of-type(2) {
+  flex: 10;
+}
+body section > .shouye > span,
+body section > .shouye > a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+body section .zhuce {
+  background-color: white;
+}
+body section .zhuce > ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+body section .zhuce > ul li {
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid gray;
+  padding: 0px 1rem;
+}
+body section .zhuce > ul li > input {
+  border: none;
+  outline: none;
+}
+body section .zhuce > ul > li:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+}
+body section .zhuce > ul > li:nth-of-type(1) > span {
+  border: 1px solid gray;
+  padding: 0.7rem;
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: 0.75rem;
+  color: gray;
+  font-weight: 900;
+  font-family: '宋体';
+  font-size: 1.2rem;
+}
+body section .zhuce > ul > li:nth-of-type(1) > p:nth-of-type(1) {
+  flex: 10;
+}
+body section .zhuce > ul > li:nth-of-type(1) > p:nth-of-type(2) {
+  flex: 1;
+}
+body section .btn {
+  width: 100%;
+  margin: 0 auto;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: #ff8a00;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: white;
+}
