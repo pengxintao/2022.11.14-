@@ -1,0 +1,83 @@
+/* 公共 */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul > li {
+  list-style: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  /* 头部 */
+  /*  < !-- 底部 --> */
+}
+body header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #ff8a00;
+}
+body header .logo {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  width: 10rem;
+  background-color: darkcyan;
+}
+body header .logo img {
+  height: 100%;
+  width: 100%;
+}
+body header .dengluXiazai {
+  height: 3rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+}
+body header .dengluXiazai img {
+  margin-left: 1rem;
+  height: 100%;
+  width: 100%;
+}
+body footer {
+  background: #2f3130;
+  color: #939494;
+  padding: 0 1.5rem;
+}
+body footer h2 {
+  font-size: 1.4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #3e403f;
+}
+body footer .content {
+  padding: 1.5rem 0;
+}
+body footer .content ul {
+  display: flex;
+}
+body footer .content ul li {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+}
+body footer .content ul li img {
+  width: 1.8rem;
+  height: 2.1rem;
+  margin-right: 1.6rem;
+  margin-left: 1rem;
+}
+body footer .content .text {
+  margin-top: 1.6rem;
+}
+body footer .content .text p:nth-of-type(1) {
+  font-size: 1.2rem;
+}
+body footer .content .text p {
+  line-height: 1.8rem;
+  text-align: center;
+}
