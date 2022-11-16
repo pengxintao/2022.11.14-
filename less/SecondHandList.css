@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
+section > .search {
+  width: 100%;
+  padding: 1rem;
+  background-color: #edebeb;
+}
+section > .search form {
+  background-color: white;
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  text-align: center;
+  position: relative;
+}
+section > .search form input {
+  width: 90%;
+  height: 90%;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+}
+section > .search form > span {
+  position: absolute;
+  top: 1.4rem;
+  right: 6rem;
+  width: 0.08rem;
+  height: 1.5rem;
+  background-color: black;
+}
+section > .search form > img {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 0.7rem;
+  right: 1.5rem;
+}
+section .content {
+  width: 100%;
+}
+section .content .mask {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc9c9;
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+section .content .contentTop {
+  background-color: white;
+  width: 100%;
+}
+section .content .contentTop > ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+section .content .contentTop > ul > li {
+  position: relative;
+  height: 3rem;
+  line-height: 3rem;
+  flex: 1;
+}
+section .content .contentTop > ul > li span {
+  border-top: 5px solid #ccc;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+section .content .contentList {
+  width: 100%;
+}
+section .content .contentList ul {
+  background-color: rgba(237, 235, 235, 0.796);
+  padding: 2rem;
+  border-bottom: 1px solid #e4e3e3;
+}
+section .content .contentList ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ff8a00;
+  padding: 1rem 0rem;
+}
+section .content .contentList ul li > div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .content .contentList ul li > div:nth-of-type(1) > img {
+  width: 10rem;
+  height: 10rem;
+}
+section .content .contentList ul li > div:nth-of-type(2) {
+  width: 100%;
+  margin-left: 1.5rem;
+  flex: 1;
+}
+section .content .contentList ul li > div:nth-of-type(2) > h3 {
+  padding: 5px;
+  width: 16rem;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+section .content .contentList ul li > div:nth-of-type(2) span {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+section .content .contentList ul li > div:nth-of-type(2) > span:nth-of-type(2) > p:nth-of-type(2) {
+  color: #ff8a00;
+  font-weight: 800;
+}
+section .content .contentList ul li > div:nth-of-type(2) > span:nth-of-type(2) > p:nth-of-type(1) {
+  color: gray;
+}
+section .content .contentList ul li > div:nth-of-type(2) > span:nth-of-type(3) {
+  color: gray;
+  display: flex;
+  justify-content: flex-start;
+}
+section .content .contentList ul > li:nth-last-of-type(1) {
+  border-bottom: none;
+}

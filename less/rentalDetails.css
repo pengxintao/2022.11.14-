@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  background-color: #ebeaead1;
+  width: 100%;
+}
+section > .shouye {
+  height: 4rem;
+  line-height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  font-size: 1.2rem;
+}
+section > .shouye > p:nth-of-type(1) {
+  flex: 1;
+}
+section > .shouye > p:nth-of-type(2) {
+  flex: 10;
+}
+section > .shouye > #shouye {
+  font-weight: 800;
+}
+section > .shouye > span,
+section > .shouye > a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+section .part1 {
+  position: relative;
+  width: 100%;
+}
+section .part1 > .part1banner {
+  width: 100%;
+}
+section .part1 > .part1banner img {
+  width: 100%;
+}
+section .part1 > .part1Text {
+  position: absolute;
+  bottom: 1rem;
+  right: 0px;
+  color: white;
+  font-size: 1.2rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 4rem;
+  height: 2rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+section .part2 .mianText {
+  height: 7rem;
+  background: #f9f9f9;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+section .part2 .mianText h2 {
+  flex: 78;
+  margin-left: 1.5rem;
+  padding-top: 1.4rem;
+}
+section .part2 .mianText > span {
+  flex: 22;
+  border-left: 1px solid #dcdcdc;
+  text-align: center;
+  background: url(../images/rentalList/xin.png) 1.7rem 1.5rem no-repeat;
+  background-size: 1.9rem 1.9rem;
+  padding-top: 3.8rem;
+}
+section .part2 .houseMes1 {
+  display: flex;
+  padding: 2rem 0rem;
+  border-bottom: 1px solid #c4c2c2;
+}
+section .part2 .houseMes1 li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0rem 0.3rem;
+  border-right: 1px solid #d3d1d1;
+}
+section .part2 .houseMes1 li > span {
+  height: 1.5rem;
+  line-height: 1rem;
+}
+section .part2 .houseMes1 li > span:nth-of-type(2) {
+  color: #ff8a00;
+}
+section .part2 .houseMes2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem;
+  border-bottom: 1px solid #dad7d7;
+}
+section .part2 .houseMes2 > li {
+  height: 4rem;
+  line-height: 4rem;
+  display: flex;
+  border-bottom: 1px solid #dad7d7;
+}
+section .part2 .houseMes2 > li div {
+  flex: 1;
+}
+section .part2 .houseMes2 > li:nth-last-of-type(1) {
+  border-bottom: none;
+}
+section .public {
+  background-color: white;
+  margin: 1rem 2rem 0rem;
+  border: 1px solid #ded9d9;
+}
+section .public > h2 {
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #d6d3d3;
+  color: #ff8a00;
+  padding-left: 1rem;
+  background: url("../images/rentalList/right.png") 21rem center no-repeat;
+  background-size: 1rem 1.5rem;
+}
+section .public > p {
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+section .public > p > span {
+  color: #de6843;
+}
+section .public > div {
+  margin: 1rem;
+  border: 1px solid #dbd9d9;
+}
+section .public > div > h3 {
+  height: 3rem;
+  line-height: 3rem;
+  margin-left: 1rem;
+}
+section .public > div img {
+  width: 100%;
+}
+section .part7 {
+  background-color: white;
+  margin-top: 1rem;
+  padding: 0rem 2rem;
+  display: flex;
+  height: 5rem;
+  line-height: 5rem;
+}
+section .part7 .photo {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .part7 .photo > img {
+  width: 4rem;
+  height: 4rem;
+}
+section .part7 .div {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .part7 .div > p {
+  line-height: 1.5rem;
+}
+section .part7 .phone {
+  flex: 3;
+  display: flex;
+}
+section .part7 .phone > a {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-left: 0.4rem;
+  flex: 1;
+  text-decoration: none;
+  height: 100%;
+}
+section .part7 .phone > a > img {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+section .part7 .phone > a:nth-of-type(2) {
+  color: #5dcb96;
+}
+section .part7 .phone > a:nth-of-type(1) {
+  color: #5baede;
+}

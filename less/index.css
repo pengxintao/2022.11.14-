@@ -4,21 +4,21 @@
 }
 section {
   width: 100%;
+  background-color: rgba(238, 236, 236, 0.63);
 }
 section .banner1 {
   width: 100%;
   background-size: cover;
+  position: relative;
 }
 section .banner1 > img {
   width: 100%;
 }
 section .banner1 form {
   width: 90%;
-  bottom: 1rem;
-  left: 2rem;
-  margin: 0 auto;
   margin-bottom: 2rem;
   position: absolute;
+  bottom: 1rem;
   left: 50%;
   transform: translate(-50%);
   overflow: hidden;
@@ -78,4 +78,161 @@ section .banner2 {
 }
 section .banner2 > img {
   width: 100%;
+}
+section .remen {
+  margin-top: 0.5rem;
+}
+section .remen .fangyuan {
+  width: 100%;
+  background-color: #ff8a00;
+  color: white;
+}
+section .remen .fangyuan h2 {
+  padding: 0rem 1.5rem;
+  font-size: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+section .remen .fangyuan > span {
+  padding: 0rem 1.5rem;
+  font-size: 1.3rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+section .remen ul {
+  background-color: white;
+  padding: 2rem;
+  border-bottom: 1px solid #e4e3e3;
+}
+section .remen ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid red;
+  padding: 1rem 0rem;
+}
+section .remen ul li > div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .remen ul li > div:nth-of-type(2) {
+  margin-left: 1.5rem;
+}
+section .remen ul li > div:nth-of-type(2) {
+  flex: 1;
+}
+section .remen ul li > div:nth-of-type(2) > h3 {
+  padding: 5px;
+  width: 16rem;
+  font-size: 1.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+section .remen ul li > div:nth-of-type(2) span {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+section .remen ul li > div:nth-of-type(2) > span:nth-of-type(1) > p:nth-of-type(2) {
+  color: #ff8a00;
+}
+section .remen ul li > div:nth-of-type(2) > span:nth-of-type(2) > p {
+  color: gray;
+}
+section .remen ul li > div:nth-of-type(2) > span:nth-of-type(3) {
+  display: flex;
+  justify-content: flex-start;
+}
+section .remen ul li > div:nth-of-type(2) > span:nth-of-type(3) > p {
+  padding: 0rem 0.5rem;
+  color: gray;
+  margin-right: 0.5rem;
+  background-color: rgba(219, 251, 240, 0.78);
+}
+section .remen ul > li:nth-of-type(3) {
+  border-bottom: none;
+}
+section .focus {
+  background-color: white;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+section .focus .focusTop {
+  height: 5rem;
+  line-height: 5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #ff8a00;
+}
+section .focus .focusTop > span {
+  font-size: 1.7rem;
+  flex: 1;
+  border-top: 1px solid #e4e3e3;
+  margin-bottom: -1px;
+}
+section .focus .focusTop > span:nth-of-type(1) {
+  color: #ff8a00;
+  border-bottom: 2px solid #ff8a00;
+}
+section .focus > .focusContent {
+  width: 100%;
+  display: flex;
+}
+section .focus > .focusContent > div {
+  flex: 1;
+  color: #555454;
+  font-size: 1.2rem;
+  margin: 1rem 0rem 1rem 2rem;
+}
+section .focus > .focusContent > div li {
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+.download {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 5rem;
+  line-height: 5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  display: flex;
+}
+.download > span {
+  flex: 1;
+}
+.download > img {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+}
+.download > div {
+  color: white;
+  font-size: 1.5rem;
+}
+.download > .downloadLeft {
+  flex: 6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5rem;
+  line-height: 1rem;
+}
+.download > .downloadLeft > .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 2rem;
+}
+.download > .downloadLeft > .text > p:nth-of-type(2) {
+  font-size: 1.2rem;
+}
+.download .downloadRight {
+  text-align: center;
+  background-color: #ff8a00;
+  flex: 4;
 }
