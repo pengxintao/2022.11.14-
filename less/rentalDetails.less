@@ -176,6 +176,7 @@ section{
         .phone{
             flex: 3;
             display: flex;
+            margin-top: 0.05rem;
             >a{
                 position: relative;
                 margin-top: 1.5rem;
@@ -183,6 +184,8 @@ section{
                 flex: 1;
                 text-decoration: none;
                 height: 100%;
+                display: flex;
+                flex-direction: column;
                 >img{
                     position: absolute;
                     top: -1rem;
@@ -192,10 +195,15 @@ section{
                 }
             }
             &>a:nth-of-type(2){
-                color: #5dcb96;
+                color: #5baede;
+                background: url(../images/rentalList/icon2.png).5rem 0 no-repeat;
+                background-size: 2rem 2rem;
             }
             &>a:nth-of-type(1){
-                color: #5baede;
+                color: #5dcb96;
+                background: url(../images/rentalList/icon1.png) .5rem 0 no-repeat;
+                background-size: 2rem 2rem;
+            
             }
         }
     }
