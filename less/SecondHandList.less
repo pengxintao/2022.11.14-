@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-section{
+
+section {
     width: 100%;
     box-sizing: border-box;
-    >.search{
+
+    >.search {
         width: 100%;
         padding: 1rem;
         background-color: rgb(237, 235, 235);
-        form{
+
+        form {
             background-color: white;
             width: 80%;
             height: 4rem;
@@ -19,14 +22,16 @@ section{
             border-radius: .3rem;
             text-align: center;
             position: relative;
-            input{
+
+            input {
                 width: 90%;
                 height: 90%;
                 border: none;
                 outline: none;
                 font-size: 1.3rem;
             }
-            >span{
+
+            >span {
                 position: absolute;
                 top: 1.4rem;
                 right: 6rem;
@@ -34,7 +39,8 @@ section{
                 height: 1.5rem;
                 background-color: black;
             }
-            >img{
+
+            >img {
                 width: 2.5rem;
                 height: 2.5rem;
                 position: absolute;
@@ -43,9 +49,11 @@ section{
             }
         }
     }
-    .content{
+
+    .content {
         width: 100%;
-        .mask{
+
+        .mask {
             width: 100%;
             height: 100%;
             background-color: rgb(204, 201, 201);
@@ -55,21 +63,25 @@ section{
             left: 0px;
             display: none;
         }
-        .contentTop{
+
+        .contentTop {
             background-color: white;
             width: 100%;
-            >ul{
+
+            >ul {
                 display: flex;
                 text-align: center;
                 justify-content: space-around;
                 border-bottom: 1px solid gray;
                 border-top: 1px solid gray;
-                >li{
+
+                >li {
                     position: relative;
                     height: 3rem;
                     line-height: 3rem;
                     flex: 1;
-                    span{
+
+                    span {
                         border-top: 5px solid #ccc;
                         border-right: 5px solid transparent;
                         border-bottom: 5px solid transparent;
@@ -81,61 +93,73 @@ section{
                 }
             }
         }
-        .contentList{
+
+        .contentList {
             width: 100%;
+
             // 房屋详情部分
-            ul{
+            ul {
                 background-color: rgba(237, 235, 235, 0.796);
-                padding:2rem;
+                padding: 2rem;
                 border-bottom: 1px solid rgb(228, 227, 227);
-                li{
+
+                li {
                     list-style: none;
                     display: flex;
                     justify-content: center;
                     border-bottom: 1px solid #ff8a00;
                     padding: 1rem 0rem;
-                    &>div:nth-of-type(1){
+
+                    &>div:nth-of-type(1) {
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        >img{
+
+                        >img {
                             width: 10rem;
                             height: 10rem;
                         }
                     }
-                    &>div:nth-of-type(2){
+
+                    &>div:nth-of-type(2) {
                         width: 100%;
                         margin-left: 1.5rem;
                         flex: 1;
-                        >h3{
+
+                        >h3 {
                             padding: 5px;
                             width: 16rem;
                             font-size: 1.5rem;
                             white-space: nowrap;
                         }
-                        span{
+
+                        span {
                             display: flex;
                             justify-content: space-between;
                             padding: .5rem;
                             font-size: 1.2rem;
                         }
-                        &>span:nth-of-type(2){
-                            &>p:nth-of-type(2){
+
+                        &>span:nth-of-type(2) {
+                            &>p:nth-of-type(2) {
                                 color: #ff8a00;
                                 font-weight: 800;
                             }
-                            &>p:nth-of-type(1){
+
+                            &>p:nth-of-type(1) {
                                 color: gray;
                             }
                         }
-                        &>span:nth-of-type(3){
+
+                        &>span:nth-of-type(3) {
                             color: gray;
                             display: flex;
                             justify-content: flex-start;
                         }
                     }
                 }
-                &>li:nth-last-of-type(1){
+
+                &>li:nth-last-of-type(1) {
                     border-bottom: none;
                 }
             }
