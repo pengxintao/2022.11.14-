@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./less/public.css">
     <link rel="stylesheet" href="./less/index.css">
 </head>
+
 <body>
     <!-- 头部 -->
     <header>
@@ -88,7 +90,7 @@
                     <div>
                         <h3>光大水墨 精装复式 稀缺</h3>
                         <span>
-                            <p>2室1厅96㎡南北  </p>
+                            <p>2室1厅96㎡南北 </p>
                             <p>280万</p>
                         </span>
                         <span>
@@ -178,7 +180,7 @@
     <!-- 粘性定位部分 -->
     <div class="download">
         <span></span>
-        <img src="./images/index/close.png" alt=""class="close">
+        <img src="./images/index/close.png" alt="" class="close">
         <div class="downloadLeft">
             <div class="icon">
                 <img src="./images/index/download.png" alt="">
@@ -191,5 +193,13 @@
         <div class="downloadRight">免费下载</div>
     </div>
 </body>
+
 </html>
 <script src="./js/rem.js"></script>
+<script>
+    var close = document.getElementsByClassName('close')[0];
+    var down = document.getElementsByClassName('download')[0];
+    close.onclick = function () {
+        down.style.display = 'none';
+    }
+</script>
