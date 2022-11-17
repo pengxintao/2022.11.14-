@@ -48,7 +48,7 @@ body section .zhuce > ul > li:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
 }
-body section .zhuce > ul > li:nth-of-type(1) > span {
+body section .zhuce > ul > li:nth-of-type(1) > span:nth-of-type(2) {
   border: 1px solid gray;
   padding: 0.7rem;
   height: 1rem;

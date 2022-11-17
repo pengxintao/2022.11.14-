@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./less/public.css">
     <link rel="stylesheet" href="./less/login.css">
 </head>
+
 <body>
     <!-- 头部 -->
     <header>
@@ -31,36 +33,39 @@
             <div class="mima active">普通登录</div>
             <div class="yanzhengma">验证码快捷登录</div>
         </div>
+        <!-- 普通登录 -->
         <form action="#" id="mima">
             <ul>
                 <li>
-                    <input type="text" placeholder="请输入手机号码"   class="tel">
-                    <span></span>
+                    <input type="text" placeholder="请输入手机号码" class="tel">
+                    <span class="tel_s"></span>
                 </li>
                 <li>
-                    <input type="text" placeholder="请输入密码"   class="password">
-                    <span></span>
+                    <input type="password" placeholder="请输入密码" class="psw">
+                    <span class="psw_1"></span>
                 </li>
             </ul>
-            <button   class="login-btn btn">立即登录</button>
+            <button class="content1_login btn">立即登录</button>
             <div class="forget">
-                <a href="#">立即注册</a>
-                <a href="#">忘记密码</a>
+                <a href="./register.html">立即注册</a>
+                <a href="./findPassword.html">忘记密码</a>
             </div>
         </form>
+        <!-- 短信 -->
         <form action="#" id="yanzhengma">
             <ul>
                 <li>
-                    <input type="text" placeholder="请输入手机号码">
+                    <input type="text" placeholder="请输入手机号码" class="tel">
                     <p></p>
-                    <span>发送验证码</span>
+                    <span class="yzm">发送验证码</span>
                     <p></p>
                 </li>
                 <li>
-                    <input type="text" placeholder="请输入短信中的验证码">
+                    <input type="text" placeholder="请输入短信中的验证码" class="yzm_text">
+                    <span class="yzm_text_s"></span>
                 </li>
             </ul>
-            <button  class="btn">验证并登录</button>
+            <button class="btn">验证并登录</button>
             <div class="forget">
                 <a href="#">立即注册</a>
                 <a href="#">忘记密码</a>
@@ -68,6 +73,7 @@
         </form>
     </section>
 </body>
+
 </html>
 <!-- 先引入字体和触摸，js单线程 -->
 <script src="./js/rem.js"></script>

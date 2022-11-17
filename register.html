@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./less/public.css">
     <link rel="stylesheet" href="./less/register.css">
 </head>
+
 <body>
     <!-- 头部 -->
     <header>
@@ -29,24 +31,32 @@
             <a href="#">注册</a>
             <p></p>
         </div>
+        <!-- 注册-->
         <div class="zhuce">
             <ul>
                 <li>
-                    <input type="text" placeholder="请输入手机号码">
+                    <input type="text" placeholder="请输入手机号码" class="tel">
+                    <span class="tel_s"></span>
                     <p></p>
-                    <span>发送验证码</span>
+                    <span class="yzm">发送验证码</span>
                     <p></p>
                 </li>
                 <li>
-                    <input type="text" placeholder="请输入短信中的验证码">
+                    <input type="text" placeholder="请输入短信中的验证码" class="yzm_text">
+                    <span class="yzm_text_s"></span>
                 </li>
                 <li>
-                    <input type="text" placeholder="请输入新密码">
+                    <input type="password" placeholder="请输入新密码" class="psw">
+                    <span class="psw_s">
+                        密码为6-8位数字
+                    </span>
                 </li>
             </ul>
         </div>
-        <button  class="btn">立即注册</button>
+        <button class="btn">立即注册</button>
     </section>
 </body>
+
 </html>
 <script src="./js/rem.js"></script>
+<script src="./js/register.js"></script>

@@ -1,8 +1,10 @@
-body{
+body {
     background-color: rgb(239, 238, 238);
-    section{
+
+    section {
         width: 100%;
-        >.shouye{
+
+        >.shouye {
             height: 3rem;
             line-height: 3rem;
             width: 100%;
@@ -10,40 +12,49 @@ body{
             justify-content: flex-start;
             border-bottom: 1px solid gray;
             background-color: white;
-            >p:nth-of-type(1){
+
+            >p:nth-of-type(1) {
                 flex: 1;
             }
-            >p:nth-of-type(2){
+
+            >p:nth-of-type(2) {
                 flex: 10;
             }
+
             >span,
-            >a{
+            >a {
                 margin-left: .5rem;
                 text-decoration: none;
                 color: black;
             }
         }
-        .zhuce{
+
+        .zhuce {
             background-color: white;
-            >ul{
+
+            >ul {
                 display: flex;
                 list-style: none;
                 flex-direction: column;
                 margin-bottom: 2rem;
-                li{
+
+                li {
                     height: 4rem;
                     line-height: 4rem;
                     border-bottom: 1px solid gray;
                     padding: 0px 1rem;
-                    >input{
+
+                    >input {
                         border: none;
                         outline: none;
                     }
                 }
-                &>li:nth-of-type(1){
+
+                &>li:nth-of-type(1) {
                     display: flex;
                     justify-content: space-between;
-                    >span{
+
+                    >span:nth-of-type(2) {
                         border: 1px solid gray;
                         padding: .7rem;
                         height: 1rem;
@@ -54,16 +65,19 @@ body{
                         font-family: '宋体';
                         font-size: 1.2rem;
                     }
-                    &>p:nth-of-type(1){
+
+                    &>p:nth-of-type(1) {
                         flex: 10;
                     }
-                    &>p:nth-of-type(2){
+
+                    &>p:nth-of-type(2) {
                         flex: 1;
                     }
                 }
             }
         }
-        .btn{
+
+        .btn {
             width: 100%;
             margin: 0 auto;
             height: 4rem;
