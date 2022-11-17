@@ -52,8 +52,8 @@ section ul a li > div:nth-of-type(1) {
   align-items: center;
 }
 section ul a li > div:nth-of-type(1) > img {
-  width: 10rem;
-  height: 10rem;
+  width: 9rem;
+  height: 9rem;
 }
 section ul a li > div:nth-of-type(2) {
   margin-left: 1.5rem;
