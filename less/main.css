@@ -30,7 +30,8 @@
 .banner > div:nth-of-type(1) > span:nth-of-type(2) {
   background: url(../images/my/down.png) no-repeat 0.3rem 0px;
 }
-.banner > div:nth-of-type(2) {
+.banner > a {
+  text-decoration: none;
   position: absolute;
   bottom: 2rem;
   left: 50%;
@@ -57,4 +58,8 @@
   border-bottom: 1px solid gray;
   background: url(../images/my/right.png) no-repeat right center;
   background-size: 0.6rem 1.3rem;
+}
+.mainList ul li span a {
+  text-decoration: none;
+  color: gray;
 }

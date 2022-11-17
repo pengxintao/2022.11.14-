@@ -23,18 +23,22 @@ section > .shouye > a {
   text-decoration: none;
   color: black;
 }
-section #listText li > .text span p {
+section #listText a {
+  text-decoration: none;
   color: black;
 }
-section #listText li > .text > span:nth-of-type(3) {
+section #listText a li > .text span p {
+  color: black;
+}
+section #listText a li > .text > span:nth-of-type(3) {
   display: flex;
   justify-content: space-between;
 }
-section #listText li > .text > span:nth-of-type(3) > p:nth-of-type(1) {
+section #listText a li > .text > span:nth-of-type(3) > p:nth-of-type(1) {
   padding: 0.3rem 0.5rem;
   color: #6da719;
   border: 1px solid #6da719;
 }
-section #listText li > .text > span:nth-of-type(3) > p:nth-of-type(2) {
+section #listText a li > .text > span:nth-of-type(3) > p:nth-of-type(2) {
   color: #ff8a00;
 }

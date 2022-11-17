@@ -23,24 +23,26 @@
         <div class="shouye">
             <p></p>
             <span>首页&gt;</span>
-            <span>我的&gt;</span>
-            <a href="#">登录</a>
+            <a href="./main.html">我的&gt;</a>
+            <a href="./login.html">登录</a>
             <p></p>
         </div>
         <div class="method">
-            <div class="mima">普通登录</div>
+            <div class="mima active">普通登录</div>
             <div class="yanzhengma">验证码快捷登录</div>
         </div>
         <form action="#" id="mima">
             <ul>
                 <li>
-                    <input type="text" placeholder="请输入手机号码">
+                    <input type="text" placeholder="请输入手机号码"   class="tel">
+                    <span></span>
                 </li>
                 <li>
-                    <input type="text" placeholder="请输入密码">
+                    <input type="text" placeholder="请输入密码"   class="password">
+                    <span></span>
                 </li>
             </ul>
-            <button  class="btn">立即登录</button>
+            <button   class="login-btn btn">立即登录</button>
             <div class="forget">
                 <a href="#">立即注册</a>
                 <a href="#">忘记密码</a>
@@ -67,4 +69,8 @@
     </section>
 </body>
 </html>
+<!-- 先引入字体和触摸，js单线程 -->
 <script src="./js/rem.js"></script>
+<script src="./js/touch.min.js"></script>
+<!-- 排他法和正则验证 -->
+<script src="./js/login.js"></script>

@@ -91,51 +91,55 @@ section .content .contentList ul {
   padding: 2rem;
   border-bottom: 1px solid #e4e3e3;
 }
-section .content .contentList ul li {
+section .content .contentList ul a {
+  text-decoration: none;
+  color: black;
+}
+section .content .contentList ul a li {
   list-style: none;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #ff8a00;
   padding: 1rem 0rem;
 }
-section .content .contentList ul li > div:nth-of-type(1) {
+section .content .contentList ul a li > div:nth-of-type(1) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section .content .contentList ul li > div:nth-of-type(1) > img {
+section .content .contentList ul a li > div:nth-of-type(1) > img {
   width: 10rem;
   height: 10rem;
 }
-section .content .contentList ul li > div:nth-of-type(2) {
+section .content .contentList ul a li > div:nth-of-type(2) {
   width: 100%;
   margin-left: 1.5rem;
   flex: 1;
 }
-section .content .contentList ul li > div:nth-of-type(2) > h3 {
+section .content .contentList ul a li > div:nth-of-type(2) > h3 {
   padding: 5px;
   width: 16rem;
   font-size: 1.5rem;
   white-space: nowrap;
 }
-section .content .contentList ul li > div:nth-of-type(2) span {
+section .content .contentList ul a li > div:nth-of-type(2) span {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
   font-size: 1.2rem;
 }
-section .content .contentList ul li > div:nth-of-type(2) > span:nth-of-type(2) > p:nth-of-type(2) {
+section .content .contentList ul a li > div:nth-of-type(2) > span:nth-of-type(2) > p:nth-of-type(2) {
   color: #ff8a00;
   font-weight: 800;
 }
-section .content .contentList ul li > div:nth-of-type(2) > span:nth-of-type(2) > p:nth-of-type(1) {
+section .content .contentList ul a li > div:nth-of-type(2) > span:nth-of-type(2) > p:nth-of-type(1) {
   color: gray;
 }
-section .content .contentList ul li > div:nth-of-type(2) > span:nth-of-type(3) {
+section .content .contentList ul a li > div:nth-of-type(2) > span:nth-of-type(3) {
   color: gray;
   display: flex;
   justify-content: flex-start;
 }
-section .content .contentList ul > li:nth-last-of-type(1) {
+section .content .contentList ul a > li:nth-last-of-type(1) {
   border-bottom: none;
 }
