@@ -134,7 +134,7 @@
 }
 .someList .house ul li .active {
   border: 1px solid #ff8a00;
-  background: url(../image/SecondhandList/ok.png) no-repeat center center;
+  background: url(../images/SecondhandList/ok.png) no-repeat center center;
   background-size: contain;
 }
 .someList .house ul li .btnOK {
