@@ -58,14 +58,17 @@ function pswReg() {
     alert('账号或者密码不正确')
   }
 }
-content1_login.onclick = function () {
+psw.onblur = function () {
 
   telReg();
   if (tel.value != '' && psw.value != '') {
     if (localStorage.getItem('user') == tel.value && localStorage.getItem('password') == psw.value) {
       //  不生效
-      window.location.href = './index.html';
-      console.log('123123131231231123132123');
+      //  window.location.href = './index.html';
+
+      var target = document.getElementById('target');
+      target.style.display = 'block';
+      content1_login.style.display = 'none';
       localStorage.setItem('true', tel.value)
     }
     else if (Boolean(tel_s.innerHTML != '')) {
