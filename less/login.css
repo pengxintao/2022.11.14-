@@ -33,6 +33,12 @@ body section .method > div {
   text-align: center;
   border-bottom: 0.4rem solid #d8d5d5;
 }
+body section .method > .mima {
+  border-bottom: 0.4rem solid #ff8a00;
+}
+body section .method > .yanzhengma {
+  border-bottom: 0.4rem solid #ff8a00;
+}
 body section #mima {
   display: none;
 }
